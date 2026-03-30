@@ -6,7 +6,7 @@ To get started set up an account on [Kinde](https://app.kinde.com/register).
 
 ## Setup your local environment
 
-Clone this repo and install dependencies by running `npm i`
+Clone this repo and install dependencies by running `pnpm install`
 
 Make a copy of `.env_sample` and name it simply `.env`. Set the following values from the Kinde `Settings > Applications > Frontend app` page.
 
@@ -37,7 +37,7 @@ You will also need to set the url they will be redirected to upon logout. Set th
 Run the following command:
 
 ```bash
-npx convex dev
+pnpm dlx convex dev
 ```
 
 When prompted, add the following environment variables from your Kinde application to Convex dashboard:
@@ -47,7 +47,7 @@ When prompted, add the following environment variables from your Kinde applicati
 
 ## Start your app
 
-Run `npm start` in a terminal and navigate to `http://localhost:3000`.
+Run `pnpm start` in a terminal and navigate to `http://localhost:3000`.
 
 Click on `Sign up` and register your first user for your business!
 
